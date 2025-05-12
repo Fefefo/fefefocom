@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@font-face {
+	font-family: 'ADELIA';
+	src: url('/fonts/ADELIA.otf'); /* format("opentype") */
+	display: swap;
+}
+
+@font-face {
+	font-family: 'Superfats';
+	src: url('/fonts/SuperfatsItalic-MaAr.ttf'); /* format("opentype") */
+	display: swap;
+}
+
+@font-face {
+	font-family: 'Medodica';
+	src: url('/fonts/MedodicaRegular.otf'); /* format("opentype") */
+	display: swap;
+}
+
+@font-face {
+	font-family: 'PixelGame';
+	src: url('/fonts/Pixel Game.otf'); /* format("opentype") */
+	display: swap;
+}
+
+body {
+	background: #ff6200;
+	background: radial-gradient(circle, rgba(255, 98, 0, 1) 0%, rgba(131, 58, 180, 1) 67%);
+	min-height: 100vh;
+}
